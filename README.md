@@ -38,6 +38,19 @@ Used **Wireshark** to capture and analyze live network traffic packet by packet 
 
 *Skills: network analysis · packet capture · TCP/IP · DNS · traffic analysis · security fundamentals*
 
+### 🔎 Lab 3 — Splunk SIEM (Security Information and Event Management) & Log Analysis
+
+*Repo:* `it-homelab/splunk`
+
+Built a working **SIEM** by forwarding Windows **Active Directory** security logs into Splunk and detecting identity-based attacks — the monitoring side of the identity work in Lab 1.
+
+- Deployed **Splunk Enterprise** on a Linux machine and installed the **Universal Forwarder** on the Active Directory server
+- Configured **cross-VNet (Virtual Network) peering** so the forwarder could reach Splunk privately — diagnosed and fixed a real routing failure
+- Wrote **SPL (Search Processing Language)** detections for brute force, account lockouts, and suspicious logins
+- Built a **four-panel security dashboard** and an **automated brute-force alert**
+
+*Skills: SIEM · log analysis · SPL · Windows Event IDs · detection engineering · Azure networking*
+
 > 🚧 **More labs in progress** — this portfolio grows as I work through SIEM (Security Information and Event Management), IT service management (ITSM) workflows, vulnerability scanning, and cloud identity (Microsoft Entra ID).
 
 ---
