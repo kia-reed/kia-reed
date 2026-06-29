@@ -51,6 +51,16 @@ Built a working **SIEM** by forwarding Windows **Active Directory** security log
 
 *Skills: SIEM · log analysis · SPL · Windows Event IDs · detection engineering · Azure networking*
 
+### 🎫 Lab 4 — ServiceNow IT Service Management (ITSM)
+Built the core request-and-approval workflows of an enterprise ITSM (IT Service Management) platform on a free ServiceNow Personal Developer Instance (PDI) — framed as identity governance, since an access request is the same object as any other request here.
+- Created, worked, and resolved an Incident end to end, with a calculated priority and documented resolution
+- Built a self-service Service Catalogue item (New Laptop Request) with mandatory fields and a model dropdown — structurally an access-request form
+- Configured and exercised an Approval Workflow, routing a change through a two-tier group → CAB (Change Advisory Board) approval chain
+- Built a bar-chart Report on incident volume by priority over the last 30 days
+- Adapted documented steps to a newer release (agent vs. Self Service views, Process Engine replacing the fulfilment group, Normal vs. Standard change)
+- **Skills:** ITSM, incident management, service catalogue design, approval workflows, change management, reporting, access-request governance
+→ [View Lab 4](./servicenow)
+
 > 🚧 **More labs in progress** — this portfolio grows as I work through SIEM (Security Information and Event Management), IT service management (ITSM) workflows, vulnerability scanning, and cloud identity (Microsoft Entra ID).
 
 ---
