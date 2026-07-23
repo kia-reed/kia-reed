@@ -61,6 +61,18 @@ Built the core request-and-approval workflows of an enterprise ITSM (IT Service 
 - **Skills:** ITSM, incident management, service catalogue design, approval workflows, change management, reporting, access-request governance
 → [View Lab 4](./servicenow)
 
+### 🛡️ Lab 5 — Nessus Vulnerability Scanning
+
+*Repo:* `it-homelab/nessus`
+
+Deployed a vulnerability scanner and scanned a live Azure domain controller — the exposure side of the infrastructure the identity work in Lab 1 sits on.
+
+- Installed and activated **Nessus Essentials**, including the plugin database that holds its vulnerability checks
+- Ran a network scan against the **Windows Server domain controller**, returning **27 findings** across severity levels
+- Interpreted findings by **CVSS (Common Vulnerability Scoring System)**, **VPR (Vulnerability Priority Rating)**, and **EPSS (Exploit Prediction Scoring System)** — explaining what an untrusted SSL certificate means and how to remediate it
+- Troubleshot cloud reachability: re-targeted from private to public IP, then opened a source-restricted **NSG (Network Security Group)** rule
+- Diagnosed a failed credentialed scan from the tool's **Audit Trail**, isolating a connectivity failure (**SMB (Server Message Block)** port 445) from a credentials failure
+- **Skills:** vulnerability management, CVSS scoring, risk prioritisation, Azure network security groups, scan troubleshooting → [View Lab 5](./nessus)
 > 🚧 **More labs in progress** — this portfolio grows as I work through SIEM (Security Information and Event Management), IT service management (ITSM) workflows, vulnerability scanning, and cloud identity (Microsoft Entra ID).
 
 ---
